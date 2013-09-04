@@ -37,23 +37,7 @@ namespace codeforces_vs_addin.test
             });
 
             Console.ReadLine();
-            //Database.Instance.UseProxy = Database.Instance.UseCredentials = true;
-            //Database.Instance.Username = "885408";
-            //Database.Instance.Password = "p5mzxv";
-            //Database.Instance.Proxy = "proxy.shirazu.ac.ir";
-            //Database.Instance.Port = "3128";
             
-            ////using (StreamReader sr = new StreamReader(getResponse.GetResponseStream()))
-            ////{
-            ////    string sourceCode = sr.ReadToEnd();
-            ////}
-
-            //string crlf;
-            //var cookies = first_request(out crlf);
-            //cookies = login_request(crlf, "000golabi", "nnmtreff", cookies);
-            //string page = get_request("http://codeforces.com/usertalk", ref cookies);
-
-            //Console.WriteLine(page.Length);
         }
 
         public static CookieCollection first_request(out string crlf)
