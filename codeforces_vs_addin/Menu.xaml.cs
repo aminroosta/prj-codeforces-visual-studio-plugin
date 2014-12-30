@@ -296,8 +296,11 @@ typedef long long ll;
 using namespace std;");
             }
 
-            sw.WriteLine(@"const bool testing = true;
-
+            sw.WriteLine(@"#ifdef ONLINE_JUDGE
+const bool testing = false;
+#else
+const bool testing = true;
+#endif
 
 void program() {
 	
